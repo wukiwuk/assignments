@@ -105,7 +105,5 @@ int main() {
     
     printf("\n");
     postfixToInfix(postfix, convertedInfix);
-    printf("Converted back to Infix: \n%s\n", convertedInfix);
-    
-    return 0;
+    printf("Back to Infix: \n%s\n", convertedInfix);
 }
